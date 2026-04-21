@@ -1,0 +1,45 @@
+# ===== 大型資料夾（不上傳）=====
+# 獨立的 AI 項目（已有自己的 git）
+Ni-Legacy-AI/
+
+# 原始錄音檔（2.5GB，超過 GitHub 限制）
+倪海厦全集天紀錄音/
+
+# ===== 工作中間檔 =====
+_working/
+!_working/_done/.gitkeep
+
+# ===== 編輯器設定 =====
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/workspace.json
+
+# ===== Claude Code 本地設定 =====
+.claude/settings.local.json
+
+# ===== 系統檔案 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ===== Python 快取（若有）=====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# ===== 敏感資料 =====
+.env
+.env.local
+*.key
+*.pem
+
+# ===== 日誌與暫存 =====
+*.log
+tmp/
+temp/
